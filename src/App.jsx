@@ -10,7 +10,7 @@ import Setup from './pages/Setup'
 
 function Footer() {
   return (
-    <footer className="border-t border-slate-800 py-8">
+    <footer className="relative z-10 border-t border-blue-950/80 py-8">
       <div className="mx-auto flex max-w-7xl flex-wrap items-center justify-between gap-3 px-4 text-sm text-slate-500">
         <p>📟 Digimon World Guide Hub — Proyecto de fans, sin afiliación con Bandai Namco.</p>
         <nav className="flex gap-4">

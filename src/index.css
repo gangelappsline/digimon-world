@@ -9,11 +9,15 @@ body { background: #070d1a; color: #e2e8f0; }
 
 ::selection { background: #22c55e55; }
 
-/* Scrollbar discreta */
+/* Scrollbar discreta azul marino */
 ::-webkit-scrollbar { width: 10px; height: 10px; }
-::-webkit-scrollbar-track { background: #0b1220; }
-::-webkit-scrollbar-thumb { background: #1e293b; border-radius: 8px; }
-::-webkit-scrollbar-thumb:hover { background: #334155; }
+::-webkit-scrollbar-track { background: #00041a; }
+::-webkit-scrollbar-thumb { background: #0a2566; border-radius: 8px; }
+::-webkit-scrollbar-thumb:hover { background: #12348c; }
+
+/* Latido de los nodos del fondo digital */
+@keyframes nodePulse { 0%, 100% { opacity: .55; } 50% { opacity: 1; } }
+.node-pulse { animation: nodePulse 3.2s ease-in-out infinite; }
 
 /* Animación de check */
 @keyframes pop { 0% { transform: scale(.6); } 60% { transform: scale(1.25); } 100% { transform: scale(1); } }

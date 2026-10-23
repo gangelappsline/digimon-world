@@ -8,7 +8,7 @@ const linkCls = ({ isActive }) =>
 export default function Navbar() {
   const { user, activeProfile, syncStatus } = useStore()
   return (
-    <header className="sticky top-0 z-40 border-b border-slate-800 bg-[#070d1a]/90 backdrop-blur">
+    <header className="sticky top-0 z-40 border-b border-blue-950/90 bg-[#00041a]/85 backdrop-blur">
       <div className="mx-auto flex max-w-7xl flex-wrap items-center gap-x-4 gap-y-2 px-4 py-3">
         <Link to="/" className="flex items-center gap-2.5">
           <span className="grid h-9 w-9 place-items-center rounded-xl bg-gradient-to-br from-emerald-500 to-sky-600 text-lg">📟</span>

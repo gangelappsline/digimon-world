@@ -90,7 +90,7 @@ export default function GameGuide() {
       )}
 
       {/* Filtros */}
-      <section className="sticky top-[65px] z-30 mt-6 rounded-2xl border border-slate-800 bg-[#0a1120]/95 p-3 backdrop-blur">
+      <section className="sticky top-[65px] z-30 mt-6 rounded-2xl border border-slate-800 bg-[#00072b]/90 p-3 backdrop-blur">
         <div className="flex flex-wrap items-center gap-2">
           <input value={query} onChange={(e) => setQuery(e.target.value)} placeholder="🔎 Buscar Digimon, jefe, zona…"
             className="min-w-56 flex-1 rounded-lg border border-slate-700 bg-slate-900 px-3 py-2 text-sm focus:border-emerald-400 focus:outline-none" />
