@@ -4,7 +4,7 @@ import { Badge, CAT_TONE } from './ui'
 export default function TaskItem({ task, done, onToggle, accentRing = '#34d399' }) {
   const [open, setOpen] = useState(false)
   return (
-    <article className={`rounded-xl border transition ${done ? 'border-emerald-500/25 bg-emerald-500/[.04]' : 'border-slate-800 bg-slate-900/60 hover:border-slate-700'}`}>
+    <article className={`rounded-xl border backdrop-blur-[2px] transition ${done ? 'border-emerald-500/25 bg-emerald-500/[.04]' : 'border-blue-900/50 bg-[#020c38]/65 hover:border-sky-800/70'}`}>
       <div className="flex items-start gap-3 p-3.5">
         <button
           onClick={() => onToggle(task.id)}
